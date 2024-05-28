@@ -32,8 +32,18 @@ print('\n'.join(critical_targets))
 print("\nCritical Alerts:")
 for item in critical_alerts:
   for key, val in item.items():
-    print("{} : {}".format(key, val))
+    if isinstance(val, dict):
+      print("{}: ".format(key))
+      for nested_key, nested_value in val.items():
+        print("  {} : {}".format(nested_key, nested_value))
+    else:
+      print("{} : {}".format(key, val))
   print("\n")
+     
+
+  
+
+
 
   
 
