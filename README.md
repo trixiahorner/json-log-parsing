@@ -1,5 +1,5 @@
 # JSON Log Parsing
-This project was designed to parse JSON-formatted logs. The primary goal was to demonstrate how to parse keys out of a dictionary and highlight its use case in cybersecurity. 
+This project was designed to parse JSON-formatted logs. The primary goal was to demonstrate how to parse keys out of a dictionary and a nested dictionary while highlighting its use case in cybersecurity. 
 
 ## How It Works
 The program demonstrates how to process a JSON log file to extract important information:
