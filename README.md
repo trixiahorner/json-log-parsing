@@ -80,3 +80,6 @@ for item in critical_alerts:
     print("{} : {}".format(key, val))
   print("\n")
 ```
+
+## Expected Output
+![output](https://github.com/trixiahorner/json-log-parsing/blob/main/images/parse_json.png?raw=true)
