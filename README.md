@@ -121,7 +121,7 @@ for item in critical_alerts:
 ## Extracting Key:Value Pairs
 - Outer loop iterates over each alert in the *'critical_alerts'* list. Each **item** is a dictionary representing a critical alert
 - Inner for loop iterates over each key:value pair in the **item** dictionary using the .items() method to iterate over both the keys and values at the same time
-- If the value is a nested dictionary (checked using *isinstance()*), print nested key:value pairs using indented format: **'key : value'**
+- If the value is a nested dictionary (checked using *isinstance()*), print nested key:value pairs using indented format: **'  key : value'**
 - Else, print each key:value pair in the format: **'key : value'**
 ```
 for item in critical_alerts:
