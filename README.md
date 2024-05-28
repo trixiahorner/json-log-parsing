@@ -136,4 +136,4 @@ for item in critical_alerts:
 ```
 
 ## Expected Output
-![output](https://github.com/trixiahorner/json-log-parsing/blob/main/images/parse_json.png?raw=true)
+![output](https://github.com/trixiahorner/json-log-parsing/blob/main/images/parsing_json.png?raw=true)
